@@ -1,7 +1,12 @@
 import React from "react"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import'bootstrap/dist/js/bootstrap.bundle.min';
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
+import '../styles/_index.scss'
+
 export default function Home() {
   
   return (
@@ -9,6 +14,20 @@ export default function Home() {
   
     <Layout>       
     <main role="main" class="main home">
+    <div id="particles" class="jumbotron particles">
+        <div class="image-container" onmousedown="return false">
+            <img class="jumbotron-img" src="assets/img/logos/datahub_color_vert-gry-bg.png" alt="DATA HUB ICON" />
+        </div>
+        <div class="title-text-container">
+            <h1>A Data & AI Platform for the Hybrid Cloud</h1>
+        </div>
+        <div class="button-container">
+            <a class="btn btn-lg btn-primary btn-getting-started"
+               href="{{ site.baseurl }}/docs.html"
+               role="button">Get started
+            </a>
+        </div>
+    </div>    
     
     <div class="jumbotron small">
         <div class="image-container">
@@ -33,7 +52,7 @@ export default function Home() {
                     <p>
                         Open Data Hub is a blueprint for building an AI as a service platform on Red Hat's <a href="https://kubernetes.io/">Kubernetes</a>-based 
                         <a href="https://www.openshift.com/">OpenShift&reg; Container Platform</a> and
-                        <a href="https://www.redhat.com/en/technologies/storage/ceph">Ceph Object Storage</a>. It inherits from upstream efforts 
+                        <a href="https://www.redhat.com/en/technologies/storage/ceph"> Ceph Object Storage</a>. It inherits from upstream efforts 
                         such as <a href="https://strimzi.io/">Kafka/Strimzi</a> and <a href="https://www.kubeflow.org/">Kubeflow</a>, and is the foundation for Red Hat's internal data science and AI platform.
                         Data scientists can create models using Jupyter notebooks, and select from popular tools such as
                         <a href="https://www.tensorflow.org/">TensorFlow&trade;</a>, <a href="http://scikit-learn.org/stable/index.html">scikit-learn</a>,

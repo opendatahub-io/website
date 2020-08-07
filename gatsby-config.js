@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/opendatahub",
+  pathPrefix: "/website",
   siteMetadata: {
     title: `OpenDataHub`,
     email: `opendatahub@redhat.com`,
@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
