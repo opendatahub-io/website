@@ -2,7 +2,6 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
-import'bootstrap/dist/js/bootstrap.bundle.min';
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import '../styles/_index.scss'
@@ -13,42 +12,42 @@ export default function Home() {
     
   
     <Layout>       
-    <main role="main" class="main home">
-    <div id="particles" class="jumbotron particles">
-        <div class="image-container" onmousedown="return false">
-            <img class="jumbotron-img" src="assets/img/logos/datahub_color_vert-gry-bg.png" alt="DATA HUB ICON" />
+    <main role="main" className="main home">
+    <div id="particles" className="jumbotron particles">
+        <div className="image-container">
+            <img className="jumbotron-img" src="assets/img/logos/datahub_color_vert-gry-bg.png" alt="DATA HUB ICON" />
         </div>
-        <div class="title-text-container">
+        <div className="title-text-container">
             <h1>A Data & AI Platform for the Hybrid Cloud</h1>
         </div>
-        <div class="button-container">
-            <a class="btn btn-lg btn-primary btn-getting-started"
+        <div className="button-container">
+            <a className="btn btn-lg btn-primary btn-getting-started"
                href="{{ site.baseurl }}/docs.html"
                role="button">Get started
             </a>
         </div>
     </div>    
     
-    <div class="jumbotron small">
-        <div class="image-container">
-            <img class="jumbotron-img" src="assets/img/logos/datahub_color_vert-gry-bg.png" alt="DATA HUB ICON"/>
+    <div className="jumbotron small">
+        <div className="image-container">
+            <img className="jumbotron-img" src="assets/img/logos/datahub_color_vert-gry-bg.png" alt="DATA HUB ICON"/>
         </div>
-        <div class="title-text-container">
+        <div className="title-text-container">
             <h1>A Data & AI Platform for the Hybrid Cloud</h1>
         </div>
-        <div class="button-container">
-            <Link class="btn btn-lg btn-primary btn-getting-started"
+        <div className="button-container">
+            <Link className="btn btn-lg btn-primary btn-getting-started"
                to="/docs-sidebar"
                role="button"> Get started
             </Link>
         </div>
     </div>  
 
-    <div class="container what-is">
-        <div class="row dh-info">
-            <div class="dh-info-text-container offset-md-1 col-md-10">
-                <div class="dh-info-section">
-                    <h2 class="dh-info-title">What is Open Data Hub?</h2>
+    <div className="container what-is">
+        <div className="row dh-info">
+            <div className="dh-info-text-container offset-md-1 col-md-10">
+                <div className="dh-info-section">
+                    <h2 className="dh-info-title">What is Open Data Hub?</h2>
                     <p>
                         Open Data Hub is a blueprint for building an AI as a service platform on Red Hat's <a href="https://kubernetes.io/">Kubernetes</a>-based 
                         <a href="https://www.openshift.com/">OpenShift&reg; Container Platform</a> and
@@ -73,14 +72,14 @@ export default function Home() {
             </div>
         </div>
     </div>
-    <div class="full-width-image">
+    <div className="full-width-image">
         <img src="assets/img/datahub_flow.png" alt="Data Hub Parts"></img> 
     </div>
-    <div class="container getting-started">
-        <div class="row dh-info">
-            <div class="dh-info-text-container offset-md-1 col-md-10">
-                <div class="dh-info-section">
-                    <h2 class="dh-info-title">Getting Started</h2>
+    <div className="container getting-started">
+        <div className="row dh-info">
+            <div className="dh-info-text-container offset-md-1 col-md-10">
+                <div className="dh-info-section">
+                    <h2 className="dh-info-title">Getting Started</h2>
                     <p>
                         For additional information about the Open Data Hub, read
                         our <a href="/news">blogs</a> and <a href="{{ '/docs.html' | prepend: site.baseurl }}">documentation</a>.
@@ -94,9 +93,9 @@ export default function Home() {
                         templates.
                     </p>
                 </div>
-                <div class="dh-info-section">
+                <div className="dh-info-section">
                     <p>
-                        <a class="btn" role="button"  href="{{ '/docs/getting-started/quick-installation.html' | prepend: site.baseurl }}">
+                        <a className="btn" role="button"  href="{{ '/docs/getting-started/quick-installation.html' | prepend: site.baseurl }}">
                             Installation
                         </a>
                     </p>

@@ -5,6 +5,8 @@ module.exports = {
     email: `opendatahub@redhat.com`,
     description: `OpenDataHub`,
     author: `@redhat`,
+    repo: `https://gitlab.com/opendatahub`, 
+    email_list: `https://lists.opendatahub.io/admin/lists/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,8 +18,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
