@@ -15,9 +15,9 @@ const Footer = () => {
       }`)
 
   return (
-    <div className="container-fluid social-icons">
-    <a href={data.site.siteMetadata.repo} target="_blank" data-toggle="tooltip" title="GitLab Repo"><i className="fab fa-gitlab"></i></a>
-    <a href={data.site.siteMetadata.email_list} target="_blank" data-toggle="tooltip" title="Mailing List"><i className="far fa-envelope fa-fw"></i></a>
+    <div>
+    <a href={data.site.siteMetadata.repo} target="_blank" title="GitLab Repo"><i className="fab fa-gitlab"></i></a>
+    <a href={data.site.siteMetadata.email_list} target="_blank" title="Mailing List"><i className="far fa-envelope fa-fw"></i></a>
     </div>
 )
   }
