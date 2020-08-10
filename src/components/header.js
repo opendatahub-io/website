@@ -13,7 +13,6 @@ return(
 <meta name="author" content="{{ site.authors }}"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135170115-1"></script>
 <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossOrigin="anonymous"></script>
 <script>
   {`
   window.dataLayer = window.dataLayer || [];
