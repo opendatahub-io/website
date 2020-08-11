@@ -3,6 +3,7 @@ author: lavlas
 title: Open Data Hub videos available on the OpenShift YouTube channel
 date: 2019-11-04
 categories: announcement
+permalink: /news/2019-11-04-openshift-youtube-announcement
 ---
 
 Open Data Hub video tutorials are now available on the <a class="external-link" href="https://www.youtube.com/user/rhopenshift" target="_blank"><i class="fas fa-external-link-alt"></i> OpenShift</a> youtube channel under the <a class="external-link" href="https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L" target="_blank"><i class="fas fa-external-link-alt"></i> AI/ML on OpenShift </a> playlist.

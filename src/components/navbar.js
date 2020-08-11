@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import '../styles/_home.scss'
 
 const Nav = () => {
   

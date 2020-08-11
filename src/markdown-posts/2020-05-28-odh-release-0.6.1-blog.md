@@ -5,6 +5,7 @@ title:  Open Data Hub 0.6.1 Release Guide
 preview: Open Data Hub 0.6.1 was just released with many bug fixes and some new exciting features. It is also the first release where OpenShift CI helped us to review the contributions.
 date: 2020-05-28
 categories: features, road map, release
+permalink: /news/2020-05-28-odh-release-0.6.1-blog
 ---
 
 What is new?

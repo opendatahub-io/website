@@ -5,6 +5,7 @@ title:  Open Data Hub 0.5.0 Release Guide
 preview: Open Data Hub 0.5.0 was just released with exciting new tools for different AI/ML platform phases. We added JupyterHub support for CUDA GPU images & notebooks, Apache Superset for data exploration & visualization and a data catalog role for deploying 
 date: 2019-12-17
 categories: features, road map, release
+permalink: /news/2019-12-16-odh-release-0.5-blog
 ---
 
 What is included?

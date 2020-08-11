@@ -5,6 +5,7 @@ title:  GPU-enabled notebooks in Open Data Hub
 preview: GPU support was added recently to Open Data Hub. This article will go into a bit more detail about using this capability, including a known issue in OpenShift 3.11.
 date: 2020-02-20
 categories: jupyterhub, notebooks, gpu
+permalink: /news/2020-02-20-gpu-notebooks-3.11-blog
 ---
 
 GPU-enabled notebooks in Open Data Hub

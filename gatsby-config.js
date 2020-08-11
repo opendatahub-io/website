@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/website/docs",
+  pathPrefix: "/website",
   siteMetadata: {
     title: `OpenDataHub`,
     email: `opendatahub@redhat.com`,

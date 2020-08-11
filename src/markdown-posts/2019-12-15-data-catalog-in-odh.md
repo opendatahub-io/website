@@ -5,6 +5,7 @@ title:  Data Catalog in Open Data Hub
 preview: Open Data Hub 0.5.0 just released with the introduction of the Data Catalog, a set of components to explore data stored in Data Lakes using Hive-related technologies.
 date: 2019-12-15
 categories: features, hue, spark, hive, data-cataloging
+permalink: /news/2019-12-15-data-catalog-in-odh
 ---
 
 Data Catalog

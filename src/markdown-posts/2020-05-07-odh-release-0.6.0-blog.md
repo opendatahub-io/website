@@ -5,6 +5,7 @@ title:  Open Data Hub 0.6.0 Release Guide
 preview: Open Data Hub 0.6.0 was just released with a complete redesign based on Kubeflow and some component improvements and additions.
 date: 2020-05-07
 categories: features, road map, release
+permalink: /news/2020-05-07-odh-release-0.6.0-blog
 ---
 
 What is new?
