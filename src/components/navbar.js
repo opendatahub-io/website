@@ -22,7 +22,7 @@ const Nav = () => {
         </ul>
         <ul className="navbar-nav">
             <li className="nav-item">
-                <a className="nav-link" href="{{ site.baseurl }}/community.html">COMMUNITY</a>
+                <a className="nav-link" href="/community">COMMUNITY</a>
             </li>
         </ul>
         <ul className="navbar-nav">
