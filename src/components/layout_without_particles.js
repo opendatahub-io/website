@@ -15,6 +15,8 @@ const LayoutWithoutParticles = (props) => {
             <Header />
             <Nav />
             {props.children}
+
+            <br /><br />
             <Footer />
         </React.Fragment>
     )
