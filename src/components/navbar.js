@@ -12,7 +12,7 @@ const Nav = () => {
     <div className="collapse navbar-collapse justify-content-end" id="dhNavbar">
         <ul className="navbar-nav">
             <li className="nav-item">
-            <Link to="/docs-sidebar" className="nav-link">DOCS</Link>
+            <Link to="/docs" className="nav-link">DOCS</Link>
             </li>
         </ul>
         <ul className="navbar-nav">
@@ -22,7 +22,7 @@ const Nav = () => {
         </ul>
         <ul className="navbar-nav">
             <li className="nav-item">
-                <a className="nav-link" href="/community">COMMUNITY</a>
+            <Link to="/community" className="nav-link">COMMUNITY</Link>
             </li>
         </ul>
         <ul className="navbar-nav">

@@ -26,6 +26,22 @@ module.exports = {
         path: `${__dirname}/src/markdown-posts/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown_pages`,
+        path: `${__dirname}/markdown-pages/docs/`,
+      },
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `YAML_files`,
+        path: `${__dirname}/data/`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

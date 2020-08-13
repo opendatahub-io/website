@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className="button-container">
             <a className="btn btn-lg btn-primary btn-getting-started"
-               href="{{ site.baseurl }}/docs.html"
+               href="/docs"
                role="button">Get started
             </a>
         </div>
