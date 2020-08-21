@@ -15,10 +15,10 @@ const Footer = () => {
       }`)
 
   return(
-    <footer class="footer">
-    <div class="container-fluid social-icons">
-    <a href={data.site.siteMetadata.repo} target="_blank" title="GitLab Repo"><i className="fab fa-gitlab"></i></a>
-    <a href={data.site.siteMetadata.email_list} target="_blank" title="Mailing List"><i className="far fa-envelope fa-fw"></i></a>
+    <footer className="footer">
+    <div className="container-fluid social-icons">
+    <a href={data.site.siteMetadata.repo} target="_blank" title="GitLab Repo" rel="noreferrer"><i className="fab fa-gitlab"></i></a>
+    <a href={data.site.siteMetadata.email_list} target="_blank" title="Mailing List" rel="noreferrer"><i className="far fa-envelope fa-fw"></i></a>
     </div>
     </footer>
 )

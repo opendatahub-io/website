@@ -12,7 +12,7 @@ permalink: /news/2018-12-04-open-data-hub-overview
 What is the Open Data Hub?
 ------
 
-![alt text](../../assets/img/posts/2018-12-04-open-data-hub-overview/Open_Data_Hub_Deployment.png "Open Data Hub")
+![alt text](/assets/img/posts/2018-12-04-open-data-hub-overview/Open_Data_Hub_Deployment.png "Open Data Hub")
 
 Built on OpenShift, Open Data Hub uses the leading Kubernetes platform to deliver a meta-project that integrates Open Source components into a practical service-oriented AI and ML solution.  Organizations and IT departments can deploy Open Data Hub as a centralized self-service solution for analytic and data science workloads.
 

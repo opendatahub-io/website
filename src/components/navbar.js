@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 import '../styles/_home.scss'
 
 const Nav = () => {
-  
+
   return (
 
 <nav className="navbar navbar-dark navbar-expand-md fixed-top">
-    <a className="navbar-brand" href="/" aria-label="DataHubLogo"><img src="assets/img/logos/datahub_color_hrz-gry-bg.png" alt="DATA HUB LOGO" /></a>
+    <a className="navbar-brand" href="/" aria-label="DataHubLogo"><img src="/assets/img/logos/datahub_color_hrz-gry-bg.png" alt="DATA HUB LOGO" /></a>
 
     <div className="collapse navbar-collapse justify-content-end" id="dhNavbar">
         <ul className="navbar-nav">

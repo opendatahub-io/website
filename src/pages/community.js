@@ -1,6 +1,6 @@
 import React from "react"
 import LayoutWithoutParticles from '../components/layout_without_particles'
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import '../styles/_community.scss'
 
 const community = ({ data }) =>
@@ -15,9 +15,9 @@ return(
                     <h3 class="title">Meetings</h3>
                     <p class="content">
                         Community meetings for Open Data Hub are conducted regularly.  Get the meeting information and find out more on the
-                        <a target="_blank" href="https://gitlab.com/opendatahub/opendatahub-community">Open Data Hub Community Repo</a>.
+                        <a target="_blank" rel="noreferrer" href="https://gitlab.com/opendatahub/opendatahub-community">Open Data Hub Community Repo</a>.
                         Meetings are scheduled on
-                        <a target="_blank" href="https://calendar.google.com/calendar?cid=cmVkaGF0LmNvbV92bW1pMW5tdHQyZGJjdXVqcmJ1aGo5N2pya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"> Google Calender</a>
+                        <a target="_blank" rel="noreferrer" href="https://calendar.google.com/calendar?cid=cmVkaGF0LmNvbV92bW1pMW5tdHQyZGJjdXVqcmJ1aGo5N2pya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"> Google Calender</a>
                     </p>
 
             </div>
@@ -29,7 +29,7 @@ return(
                     <p class="content">
                         Browse the source code for various projects that form the Open Data Hub.
                     </p>
-                    <a target="_blank" href={data.site.siteMetadata.repo}>Visit GitLab Now
+                    <a target="_blank" rel="noreferrer" href={data.site.siteMetadata.repo}>Visit GitLab Now
                     </a>
             </div>
             <div class="col-md-8 img-container">
@@ -42,7 +42,7 @@ return(
                 <p class="content">
                     Stay up to date with the latest announcements and discussion about the Open Data Hub.
                 </p>
-                <a target="_blank" href={data.site.siteMetadata.email_list}> Subscribe to the Mailing List</a>
+                <a target="_blank" rel="noreferrer" href={data.site.siteMetadata.email_list}> Subscribe to the Mailing List</a>
             </div>
             <div class="col-md-8 img-container">
                 <img src="assets/img/community_mailing_list.png" alt="mailing list" />

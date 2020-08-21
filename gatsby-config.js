@@ -1,12 +1,14 @@
 module.exports = {
   pathPrefix: "/website",
+  assetPrefix: `http://localhost:8000`,
   siteMetadata: {
     title: `OpenDataHub`,
     email: `opendatahub@redhat.com`,
     description: `OpenDataHub`,
     author: `@redhat`,
     repo: `https://gitlab.com/opendatahub`, 
-    email_list: `https://lists.opendatahub.io/admin/lists/`
+    email_list: `https://lists.opendatahub.io/admin/lists/`,
+    siteUrl: `http://localhost:8000/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

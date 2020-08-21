@@ -12,7 +12,7 @@ Apache Kafka
 ------
 
 
-![alt text](../../assets/img/posts/2019-08-20-kafka-in-odh/apache_kafka.png "Apache Kafka")
+![alt text](../../assets/img/posts/2019-08-20-kafka-in-odh/apache_kafka.png)
 
 The Open Data Hub is a reference architecture running on OpenShift that incorporates a variety of open source projects to function as an ML-as-a-service platform. Given the huge amounts of data to be ingested and processed, it's crucial to have a reliable streaming platform. To solve this problem we use Apache Kafka.
 
